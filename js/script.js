@@ -12,3 +12,9 @@ console.log(PI);
 // ERRORE
 // PI = 3.1416;
 // console.log(PI);
+
+// ESERCIZIO 2/C 
+
+let radius = 8;
+let circle = radius * 2 * PI;
+console.log(circle);
