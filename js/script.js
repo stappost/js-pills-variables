@@ -72,3 +72,8 @@ else{
     comparison = false;
 }
 console.log(comparison);
+
+// PARTE 3 
+for(let i=1; i<=42; i++){
+    console.log(i)
+}
