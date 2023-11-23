@@ -74,6 +74,12 @@ else{
 console.log(comparison);
 
 // PARTE 3 
+// ESERCIZIO 1 
 for(let i=1; i<=42; i++){
+    console.log(i)
+}
+
+// ESERCIZIO 1/B
+for(let i=42; i>0; i--){
     console.log(i)
 }
