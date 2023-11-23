@@ -93,3 +93,6 @@ console.log(numbers);
 
 const fruits=["mela", "banana", "pesca", "pera", "albicocca", "mango", "kiwi", "papaya"];
 console.log(fruits);
+
+// ESERCIZIO 1/C 
+console.log(fruits.length)
