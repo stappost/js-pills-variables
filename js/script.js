@@ -86,8 +86,8 @@ for(let i=42; i>0; i--){
 // ARRAY 
 // ESERCIZIO 1/A 
 
-const numbers=[1, 2, 3, 4, 5, 6, 7, 8];
-console.log(numbers);
+// const numbers=[1, 2, 3, 4, 5, 6, 7, 8];
+// console.log(numbers);
 
 // ESERCIZIO 1/B
 
@@ -96,3 +96,31 @@ console.log(fruits);
 
 // ESERCIZIO 1/C 
 console.log(fruits.length)
+
+const numOfElements = parseInt(prompt("inserire un numero intero"));
+let numbers = []
+for(i=1; i<=numOfElements; i++){
+    numbers.push(parseInt(Math.random()*10)+1)
+}
+console.log(numbers);
+console.log(numbers.length);
+
+let somma = 0;
+for(i=0; i<numbers.length; i++){
+    somma += numbers[i];
+}
+console.log(somma);
+let max;
+for(let i=1; i<numbers.length; i++){
+    if(numbers[i] > max){
+        max = numbers[i];
+    }
+}
+console.log(max)
+
+// OGGETTI 
+
+let persona = {
+    nome: "gigi",
+    cognome: "paoli"
+}
